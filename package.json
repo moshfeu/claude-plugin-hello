@@ -1,12 +1,9 @@
 {
-  "name": "@moshfeu/claude-plugin-hello",
+  "name": "claude-plugin-hello",
   "version": "1.0.0",
   "description": "Minimal Claude Code plugin example",
   "files": [
     ".claude-plugin",
     "skills"
-  ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  }
+  ]
 }

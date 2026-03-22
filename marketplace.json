@@ -4,7 +4,7 @@
     "name": "moshfeu"
   },
   "metadata": {
-    "description": "Minimal Claude Code plugin example hosted on GitHub Packages."
+    "description": "Minimal Claude Code plugin example distributed directly from GitHub."
   },
   "plugins": [
     {
@@ -12,8 +12,7 @@
       "description": "A hello-world skill that greets you and shares a fun programming fact.",
       "source": {
         "source": "npm",
-        "package": "@moshfeu/claude-plugin-hello",
-        "registry": "https://npm.pkg.github.com"
+        "package": "github:moshfeu/claude-plugin-hello"
       }
     }
   ]

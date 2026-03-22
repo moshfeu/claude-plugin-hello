@@ -1,0 +1,20 @@
+{
+  "name": "hello-marketplace",
+  "owner": {
+    "name": "moshfeu"
+  },
+  "metadata": {
+    "description": "Minimal Claude Code plugin example hosted on GitHub Packages."
+  },
+  "plugins": [
+    {
+      "name": "claude-plugin-hello",
+      "description": "A hello-world skill that greets you and shares a fun programming fact.",
+      "source": {
+        "source": "npm",
+        "package": "@moshfeu/claude-plugin-hello",
+        "registry": "https://npm.pkg.github.com"
+      }
+    }
+  ]
+}

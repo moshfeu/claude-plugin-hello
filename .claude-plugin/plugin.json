@@ -1,5 +1,5 @@
 {
   "name": "claude-plugin-hello",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A minimal Claude Code plugin example with a hello-world skill."
 }

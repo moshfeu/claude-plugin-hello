@@ -4,15 +4,15 @@
     "name": "moshfeu"
   },
   "metadata": {
-    "description": "Minimal Claude Code plugin example distributed directly from GitHub."
+    "description": "Minimal Claude Code plugin example distributed via GitHub."
   },
   "plugins": [
     {
       "name": "claude-plugin-hello",
       "description": "A hello-world skill that greets you and shares a fun programming fact.",
       "source": {
-        "source": "npm",
-        "package": "github:moshfeu/claude-plugin-hello"
+        "source": "github",
+        "repo": "moshfeu/claude-plugin-hello"
       }
     }
   ]
